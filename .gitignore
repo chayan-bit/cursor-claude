@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.env
+.env.local
+# Never commit OAuth credentials
+credentials.json
+.cursor-claude/

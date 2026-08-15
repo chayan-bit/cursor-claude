@@ -1,0 +1,27 @@
+{
+  "name": "cursor-claude",
+  "version": "1.0.0",
+  "description": "Use your Anthropic Claude subscription (Pro/Max) inside Cursor via a local OAuth proxy - the same method Claude Code / omp uses, no per-token API key.",
+  "type": "module",
+  "bin": {
+    "cursor-claude": "bin/cursor-claude.js"
+  },
+  "scripts": {
+    "login": "node bin/cursor-claude.js login",
+    "start": "node bin/cursor-claude.js start",
+    "status": "node bin/cursor-claude.js status"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cursor",
+    "claude",
+    "anthropic",
+    "oauth",
+    "proxy",
+    "subscription"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
